@@ -72,6 +72,14 @@ object AudioLibrary {
             )
         ),
         AudioTrack(
+            id = "ni_shi_she_ya",
+            resId = R.raw.ni_shi_she_ya,
+            title = "你是谁呀",
+            bookmarks = listOf(
+                AudioBookmark("ni_shi_she_ya", "你是谁呀", 0L),
+            )
+        ),
+        AudioTrack(
             id = "tomori_ku",
             resId = R.raw.tomori_ku,
             title = "凑企鹅哭",
