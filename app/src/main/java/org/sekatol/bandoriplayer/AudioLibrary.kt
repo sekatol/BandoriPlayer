@@ -32,6 +32,8 @@ object AudioLibrary {
             title = "冰冰冰",
             bookmarks = listOf(
                 AudioBookmark("bing_bing_bing", "冰冰冰", 0L),
+                AudioBookmark("bing_bing_bing", "冰冰", 179L),
+                AudioBookmark("bing_bing_bing", "冰", 341L),
             )
         ),
         AudioTrack(
@@ -52,6 +54,10 @@ object AudioLibrary {
                 AudioBookmark("2", "gu↗gu→ga→ga↘", 1925L),
                 AudioBookmark("3", "gu↑gu↑ga↗ga↗", 4010L),
                 AudioBookmark("4", "喝啊", 6271L),
+                AudioBookmark("5", "饿啊", 6814L),
+                AudioBookmark("6", "gu↘gu↗ga→ga↘", 7510L),
+                AudioBookmark("7", "嘿嘿", 9534L),
+                AudioBookmark("8", "gu↗gu↗ga→ga↘", 10014L),
             )
         ),
         AudioTrack(
@@ -72,11 +78,12 @@ object AudioLibrary {
             )
         ),
         AudioTrack(
-            id = "ni_shi_she_ya",
-            resId = R.raw.ni_shi_she_ya,
+            id = "ni_shi_shei_ya",
+            resId = R.raw.ni_shi_shei_ya,
             title = "你是谁呀",
             bookmarks = listOf(
-                AudioBookmark("ni_shi_she_ya", "你是谁呀", 0L),
+                AudioBookmark("ni_shi", "你是", 0L),
+                AudioBookmark("shei_ya", "谁呀", 371L),
             )
         ),
         AudioTrack(
@@ -108,6 +115,14 @@ object AudioLibrary {
                 AudioBookmark("quan_dou_bu_shi_ren", "拳斗部诗人", 12469L),
                 AudioBookmark("xiang_cheng_wei_ren_lei", "想成为人类", 14865L),
                 AudioBookmark("shen_ren_ba_wo_hei", "神人把我黑", 17285L),
+            )
+        ),
+        AudioTrack(
+            id = "tomori_lalalala",
+            resId = R.raw.lalalala,
+            title = "啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦",
+            bookmarks = listOf(
+                AudioBookmark("tomori_lalalala", "啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦", 0L)
             )
         ),
     )
